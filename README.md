@@ -45,9 +45,9 @@ Copyright (c) _date_ _author name(s)_
 
 1. Game object
 - store players
-- track turns
+- prototpe: track turns
 - prototype: check current game against game rules
-- protoype: store dice roles for players turn
+- prototype: store dice roles for players turn
 2. Player object
 - tracks score 
 - UI logic: turn options
@@ -57,7 +57,7 @@ Copyright (c) _date_ _author name(s)_
 - shows user scores
 - function to add to list
 
-## Tests  
+## Tests 
 <br>
 describe rollDice()
 
@@ -65,3 +65,7 @@ Test: "It should roll a random number between 1 and 6"
 Code:
 rollDice()
 Expected Output: "1-6"
+
+describe Game.protoype.roll()
+
+Test: "It should 
