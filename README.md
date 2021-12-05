@@ -40,3 +40,6 @@ _dolanp1992@gmail.com_
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 Copyright (c) _date_ _author name(s)_
+
+## Tests  
+<br>
