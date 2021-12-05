@@ -41,5 +41,27 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 Copyright (c) _date_ _author name(s)_
 
+## Plan
+
+1. Game object
+- store players
+- track turns
+- prototype: check current game against game rules
+- protoype: store dice roles for players turn
+2. Player object
+- tracks score 
+- UI logic: turn options
+3. Dice Roller Function
+- roll dice randomly
+4. UI: Score card
+- shows user scores
+- function to add to list
+
 ## Tests  
 <br>
+describe rollDice()
+
+Test: "It should roll a random number between 1 and 6"
+Code:
+rollDice()
+Expected Output: "1-6"
