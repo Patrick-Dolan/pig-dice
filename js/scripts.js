@@ -8,7 +8,6 @@ function Player(name) {
   this.name = name;
   this.score = 0;
   this.turns = [];
-  
 }
 // Game Business Logic
 function Game() {
@@ -36,7 +35,7 @@ Game.prototype.turnChange = function() {
     }
   });
   this.curPlayer = currentPlayer;
-  this.curPlayer.turns.push([])
+  this.curPlayer.turns.push([]);
 };
 
 Game.prototype.scoreTotal = function() {
