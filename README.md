@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Work in progress will add description later._
 
 ## Setup/Installation Requirements
 
@@ -49,16 +49,3 @@ Copyright (c) _2021_ _Patrick Dolan & Branden Clauson_
 4. UI: Score card
 - shows user scores
 - function to add to list
-
-## Tests 
-<br>
-describe rollDice()
-
-Test: "It should roll a random number between 1 and 6"
-Code:
-rollDice()
-Expected Output: "1-6"
-
-describe Game.protoype.roll()
-
-Test: "It should 
